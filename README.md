@@ -1,9 +1,9 @@
-![issues](https://img.shields.io/github/issues/luizcsbh/Portal-de-Noticias)
-![forks](https://img.shields.io/github/forks/luizcsbh/Portal-de-Noticias)
-![stars](https://img.shields.io/github/stars/luizcsbh/Portal-de-Noticias)
-![lincença](https://img.shields.io/github/license/luizcsbh/Portal-de-Noticias)
+![issues](https://img.shields.io/github/issues/luizcsbh/Portal_de_Noticias)
+![forks](https://img.shields.io/github/forks/luizcsbh/Portal_de_Noticias)
+![stars](https://img.shields.io/github/stars/luizcsbh/Portal_de_Noticias)
+![lincença](https://img.shields.io/github/license/luizcsbh/Portal_de_Noticias)
 ![node](https://img.shields.io/node/v/mongoose)
-![tag](https://img.shields.io/github/v/tag/luizcsbh/Portal-de-Noticias)
+![tag](https://img.shields.io/github/v/tag/luizcsbh/Portal_de_Noticias)
 
 # Portal-de-Noticias
 Aplicalção em NodeJS para um portal de Noticias, sistema didatico apenas para aprendizado e estruturação no padrão MVC no NodeJS utilizando Banco de dados MySQL rodando num conteiner docker

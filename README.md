@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 ![issues](https://img.shields.io/github/issues/luizcsbh/Portal-de-Noticias)
 ![forks](https://img.shields.io/github/forks/luizcsbh/Portal-de-Noticias)
 ![stars](https://img.shields.io/github/stars/luizcsbh/Portal-de-Noticias)
 ![lincença](https://img.shields.io/github/license/luizcsbh/Portal-de-Noticias)
+=======
+![Alt Text](https://img.shields.io/github/issues/luizcsbh/Portal_de_noticias)
+![Alt Text](https://img.shields.io/github/forks/luizcsbh/Portal_de_noticias)
+![Alt Text](https://img.shields.io/github/stars/luizcsbh/Portal_de_noticias)
+![Alt Text](https://img.shields.io/github/license/luizcsbh/Portal_de_noticias)
+>>>>>>> 4341f8a0fdfd25a24ff7478299b8d6717d36b672
 ![node](https://img.shields.io/node/v/mongoose)
 ![tag](https://img.shields.io/github/v/tag/luizcsbh/Portal-de-Noticias)
 

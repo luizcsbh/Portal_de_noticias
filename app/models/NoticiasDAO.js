@@ -3,20 +3,41 @@ function NoticiasDAO(connection){
 }
 
 NoticiasDAO.prototype.getNoticias = function(callback){
-	this._connection.query('select * from noticias order by data_criacao desc', callback);
+	this._connection.query(`SELECT  id_noticia,
+									autor,
+									titulo,
+									resumo,
+									DATE_FORMAT(data_criacao, "%d/%m/%Y %H:%i:%s") as data_criacao,
+									noticia
+							FROM noticias
+							ORDER BY data_criacao DESC` , callback);
 }
 
 NoticiasDAO.prototype.getNoticia = function(id_noticia, callback){
 	console.log(id_noticia.id_noticia);
-	this._connection.query('select * from noticias where id_noticia = ' + id_noticia.id_noticia, callback);
+	this._connection.query(`SELECT  id_noticia,
+									autor,
+									titulo,
+									resumo,
+									DATE_FORMAT(data_criacao, "%d/%m/%Y %H:%i:%s") as data_criacao,
+									noticia
+							FROM noticias
+							WHERE id_noticia = ` + id_noticia.id_noticia, callback);
 }
 
 NoticiasDAO.prototype.salvarNoticia = function(noticia, callback){
-	this._connection.query('insert into noticias set ? ', noticia, callback)
+	this._connection.query('INSERT INTO noticias SET ? ', noticia, callback)
 }
 
 NoticiasDAO.prototype.get5UltimasNoticias = function(callback){
-	this._connection.query('select * from noticias order by data_criacao desc limit 5', callback);
+	this._connection.query(`SELECT  id_noticia,
+									autor,
+									titulo,
+									resumo,
+									DATE_FORMAT(data_criacao, "%d/%m/%Y %H:%i:%s") as data_criacao,
+									noticia
+							FROM noticias
+							ORDER BY data_criacao DESC LIMIT 5` , callback);
 }
 
 module.exports = function(){

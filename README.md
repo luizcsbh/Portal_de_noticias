@@ -3,6 +3,7 @@
 ![stars](https://img.shields.io/github/stars/luizcsbh/Portal_de_Noticias)
 ![lincença](https://img.shields.io/github/license/luizcsbh/Portal_de_Noticias)
 ![node](https://img.shields.io/node/v/mongoose)
+![code-size](https://img.shields.io/github/languages/code-size/luizcsbh/Portal_de_Noticias)
 ![tag](https://img.shields.io/github/v/tag/luizcsbh/Portal_de_Noticias)
 
 # Portal-de-Noticias

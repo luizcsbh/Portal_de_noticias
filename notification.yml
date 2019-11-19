@@ -12,4 +12,4 @@ jobs:
       uses: techulus/push-github-action@v0.0.2
       env:
         API_KEY: ${{ 92fb5f58-94c9-4ed0-94b4-bc6aac8f01c7 }}
-        MESSAGE: "There is a new commit!"
+        MESSAGE: " Existe um novo commit! " 

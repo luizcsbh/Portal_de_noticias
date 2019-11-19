@@ -1,6 +1,6 @@
 name: Push on commit
 
-on: [push]
+on: [commit]
 
 jobs:
   build:

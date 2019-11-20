@@ -9,7 +9,7 @@
 # Portal-de-Noticias
 Aplicalção em NodeJS para um portal de Noticias, sistema didatico apenas para aprendizado e estruturação no padrão MVC no NodeJS utilizando Banco de dados MySQL rodando num conteiner docker
 
-Para cria a instância no banco de dados utilizando docker-compose e necessário criar o arquivo docker-compose.yml
+Para cria a instância no banco de dados utilizando docker-compose e necessário criar o arquivo docker-compose.yml :whale:
 
 ------
 

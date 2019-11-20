@@ -11,8 +11,7 @@ Aplicalção em NodeJS para um portal de Noticias, sistema didatico apenas para 
 
 Para cria a instância no banco de dados utilizando docker-compose e necessário criar o arquivo docker-compose.yml :whale:
 
-------
-
+```doccker
 version: '3.3'
 volumes:
   data:
@@ -26,8 +25,7 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_DATABASE=portal_noticias 
-
-------
+```
 
 Salvar o arquivo na pasta do projeto e executar o comando 
 

@@ -2,7 +2,7 @@
 ![forks](https://img.shields.io/github/forks/luizcsbh/Portal_de_Noticias)
 ![stars](https://img.shields.io/github/stars/luizcsbh/Portal_de_Noticias)
 [![lincença](https://img.shields.io/github/license/luizcsbh/Portal_de_Noticias)](https://github.com/luizcsbh/Portal_de_noticias/blob/master/LICENSE)
-[![node](https://img.shields.io/node/v/mongoose)]()
+[![node](https://img.shields.io/node/v/body-parser)](https://www.npmjs.com/package/body-parser)
 ![code-size](https://img.shields.io/github/languages/code-size/luizcsbh/Portal_de_Noticias)
 ![tag](https://img.shields.io/github/v/tag/luizcsbh/Portal_de_Noticias)
 
